@@ -11,7 +11,6 @@ DROP TABLE IF EXISTS student_quiz_results;
 CREATE TABLE student_quiz_results (student_id INTEGER, quiz_id INTEGER, score INTEGER);
 
 INSERT INTO student_quiz_results (student_id, quiz_id, score) VALUES (101, 5, 85);
-INSERT INTO student_quiz_results (student_id, quiz_id, score) VALUES (221, 1, 100);
 
 -- Table: students
 DROP TABLE IF EXISTS students;
